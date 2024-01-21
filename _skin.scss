@@ -1,0 +1,12 @@
+.skincare {
+    &__title {
+        color: $color-02;
+    }
+    &__item {
+        color: $color-04;
+
+        &__button {
+            background-color: $color-default;
+        }
+    }
+}

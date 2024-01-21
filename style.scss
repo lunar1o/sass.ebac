@@ -1,37 +1,6 @@
-*{
-    border:0;
-    margin:0;
-    padding:0;
-}
-html{
-    font-size: 62.5%;
-}
-div, p{
-    display: block;
-}
-header, section, footer{
-    display: block;
-    margin:0 auto;
-    width: 100%;
-    padding:3rem 0;
-}
+@import 'vars';
+@import 'reset';
+@import 'blocks';
+@import 'skin';
+@import 'destack';
 
-    img{
-        width: 100%;
-        height: auto;
-        border-radius: 20%;
-    }
-    body{
-        font-family: $font-family-default;
-        font-size: $font-normal;
-        color: $color-04;
-    }
-p{
-    color: $color-01;
-    font-size: $font-normal;
-    margin-bottom: $mb;
-    text-align: $align;
-}
-ul{
-    background-color: $color-04;
-}
